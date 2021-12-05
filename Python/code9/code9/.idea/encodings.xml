@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/bsheet.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/csheet.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/myexcell.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/mylog.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/sheet.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/test2.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testb.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/testc.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/向文件写数据.txt" charset="GBK" />
+  </component>
+</project>

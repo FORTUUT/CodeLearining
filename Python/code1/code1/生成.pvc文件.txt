@@ -1,0 +1,15 @@
+使用如下格式运行.py文件来生成.pyc文件
+python -m py_compile /path/to/需要生成.pyc的脚本.py #若批量处理.py文件
+                                                  #则替换为/path/to/{需要生成.pyc的脚本1,脚本2,...}.py
+                                                  #或者/path/to/
+
+其效果等效于如下代码：
+import py_compile
+py_compile.compile(r'/path/to/需要生成.pyc的脚本.py') #同样也可以是包含.py文件的目录路径
+                                                    #此处尽可能使用raw字符串，从而避免转义的麻烦。比如，这里不加“r”的话，你就得对斜杠进行转义
+
+
+举例：
+>>>import py_compile
+>>> py_compile.compile(r'G:/2021-2022-1/Python/PPT/ch1/code1/hello.py')
+
